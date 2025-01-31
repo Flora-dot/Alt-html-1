@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool Media Assignment</title>
+  </head>
+  <body>
+    <main>
+      <h1>ABOUT ME</h1>
+      <section>
+        <h3><strong>A Picture of Me</strong></h3>
+        <img
+          src="./image/83373700-da88-4939-a4aa-3281cdae63fa.jfif"
+          alt="image of flora"
+          width="300px"
+        />
+      </section>
+      <br />
+      <br />
+      <section>
+        <h3><strong>A Video I like</strong></h3>
+        <video
+          src="vid1.mp4"
+          controls
+          autoplay
+          loop
+          width="300px"
+          height="400px"
+        >
+          <source src="vid1.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <br />
+      <br />
+      <section>
+        <h3><strong>An audio I like</strong></h3>
+        <audio controls>
+          <source
+            src="Davido-Ft-YG-Marley-Awuke-(TrendyBeatz.com).mp3"
+            type="audio/wav"
+          />
+        </audio>
+      </section>
+      <br />
+      <br />
+      <section>
+        <picture>
+          <h3><strong>A picture I like</strong></h3>
+          <!-- Image for small screens -->
+          <source
+            srcset="
+              https://images.pexels.com/photos/29763568/pexels-photo-29763568/free-photo-of-cozy-morning-gaming-with-breakfast-on-bed.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+            "
+            media="(max-width: 600px)"
+          />
+
+          <!-- Image for medium screens -->
+          <source
+            srcset="
+              https://images.pexels.com/photos/30374458/pexels-photo-30374458/free-photo-of-woman-in-dress-walking-along-rural-path.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+            "
+            media="(max-width: 1024px)"
+          />
+          <!-- Image for large screens -->
+          <source
+            srcset="
+              https://images.pexels.com/photos/30356650/pexels-photo-30356650/free-photo-of-woman-sitting-with-tulip-bouquet-in-minimal-space.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+            "
+            media="(max-width: 1324px)"
+          />
+
+          <!-- Default image for larger screens -->
+          <img
+            src="https://images.pexels.com/photos/30356650/pexels-photo-30356650/free-photo-of-woman-sitting-with-tulip-bouquet-in-minimal-space.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Responsive Image"
+          />
+        </picture>
+        <h3>
+          <strong><a href="index.html">Back</a></strong>
+        </h3>
+      </section>
+    </main>
+  </body>
+</html>
